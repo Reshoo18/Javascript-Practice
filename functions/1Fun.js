@@ -6,13 +6,14 @@
 
 //1.question :- create a function and pass a string and calculate the number of vowels are present in the strig
 
-function CountVowels(str){
+function Calvowels(str){
     count=0;
     for(const char of str){
-        if(char==="a"||char==="e"||char==="i"||char==="o"||char=="u"){
-            count++;
+        if(char==="a"||char==="e"||char==="i"||char==="o"||char==="u"){
+         count++;
         }
     }
-   return count;
+   console.log(count);
 }
-CountVowels("helloworld");
+Calvowels("hello")
+ 

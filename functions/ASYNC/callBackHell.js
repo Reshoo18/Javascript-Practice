@@ -7,6 +7,7 @@ function getData(dataId,getNextData){
     },2000)
 }
 console.log("getting data 1")
+//CALLBACK HELL
 getData(1,()=>{
     console.log("gettng data 2");
     getData(2,()=>{
